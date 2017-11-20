@@ -1,0 +1,64 @@
+
+	     @media screen and (max-width: 420px) 
+	       {
+	         h1 {
+	           font-size: 1em; 
+	         }
+	         
+	         .quote {
+	             font-size: 1em;
+	         }
+	         
+	         
+	         .quotecontainer {
+
+	       border: none;
+}
+	       }
+
+body {
+	margin: 0px;
+	background-color: #fff;
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.2;
+}
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 3em;
+	text-align: center;
+	color: #C70039;
+}
+.container {
+	
+	margin: 4em auto;
+}
+.quotecontainer {
+	width: 60vw;
+	margin: 4em auto 0 auto;
+	border: outset;
+	border-color: #C70039;
+	border-bottom-color: skyblue;
+	text-align: center;
+	clear: both;
+	padding: 1.5em;
+	box-shadow: 10px 10px 5px #888888;
+}
+.quote {
+	font-family: 'Indie Flower', cursive;
+	font-size: 2em;
+}
+
+blockquote {
+	padding: 2em;
+}
+.buttons {
+	margin-bottom: 2em;
+	text-align: center;
+	vertical-align: bottom;
+}
+#tweet {
+	background: none;
+	border: none;
+}
+.g-plus {}
